@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Global tags */
+
+.btn {
+  box-shadow: none !important;
+}
+h2 {
+  font-weight: 600 !important;
+}
+h3 {
+  font-size: 50px !important;
+  font-weight: 600 !important;
+}
+h4 {
+  font-size: 35px !important;
+  font-weight: 600 !important;
+}
+h5 {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+h6 {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.px-6 {
+  padding-right: 4.5rem !important;
+  padding-left: 4.5rem !important;
+}
+.pe-6 {
+  padding-right: 2.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 5rem;
+}
+.ps-6 {
+  padding-left: 3.5rem !important;
+}
+section {
+  padding: 8rem 0;
+  /* background: #e5e5e5; */
+}
+@media only screen and (max-width: 991px) {
+  p {
+    font-size: 15px;
+    /* font-weight: 600 !important; */
+  }
+  h3 {
+    font-size: 45px !important;
+  }
+  h4 {
+    font-size: 30px !important;
+  }
+  h5 {
+    font-size: 20px !important;
+  }
+  h6 {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h4 {
+    font-size: 27px !important;
+  }
+  h5 {
+    font-size: 18px !important;
+  }
+  h3 {
+    font-size: 40px !important;
+  }
+  h6 {
+    font-size: 13px !important;
+  }
+  p {
+    font-size: 14px;
+    /* font-weight: 600 !important; */
+  }
+  .pe-6 {
+    padding-right: 2rem !important;
+  }
+  .ps-6 {
+    padding-left: 2rem !important;
+  }
+  section {
+    padding: 5rem 0;
+  }
+}
+.btn-primary {
+  background-color: #001d38 !important;
+  border: 1px solid #001d38 !important;
+}
+.py-6 {
+  padding: 8rem 0 !important;
+}
+.above {
+  position: relative;
+  z-index: 8;
+}
+
+/*  */
+.contact {
+  background: url("https://res.cloudinary.com/dammymoses/image/upload/v1640424745/kibrc/contactusbackgroundpic_aposrl.svg") !important;
+  /* height: 120vh; */
+  background-size: cover;
+  background-color: #e5e5e5;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+/*  */
+.seller {
+  background: url("https://res.cloudinary.com/dammymoses/image/upload/v1641264695/kibrc/sellerBackground_uy9plp.svg") !important;
+  height: 120vh;
+  background-size: cover;
+  background-color: rgba(0, 29, 56, 0.85);
+  background-repeat: no-repeat;
+}
