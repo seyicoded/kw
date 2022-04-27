@@ -22,11 +22,16 @@ const Header = () => {
             font-size: 30px;
             // line-height: 10.95px;
             font-weight: 500;
+            padding: 1px 1em;
         }
     `
 
     const ButtonStyled = styled.div`
         padding: 8px 3em;
+
+        @media only screen and (max-width: 768px) {
+            padding: 1px 1em;
+        }
     `;
 
     useEffect(()=>{
@@ -34,7 +39,7 @@ const Header = () => {
         // alert(window.innerHeight)
     }, [])
     return (
-        <HolderStyled style={{
+        <HolderStyled id="top" style={{
             height: height,
             backgroundImage: `url(${BackgroundImage.src})`,
             backgroundSize: 'cover',
@@ -62,7 +67,7 @@ const Header = () => {
                     </CaptionTextStyled>
 
                     <ButtonStyled>
-                        <button className="btn m-0 p-0 me-4 animate__animated animate__fadeInLeft">
+                        <button className="btn m-0 p-0 py-2 me-4 animate__animated animate__fadeInLeft">
                             <img alt="" src={"/apple.svg"} />
                         </button>
                         <button className="btn m-0 p-0 animate__animated animate__fadeInLeft">
