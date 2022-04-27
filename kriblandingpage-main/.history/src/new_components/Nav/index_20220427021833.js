@@ -24,8 +24,8 @@ const Styled = styled.div`
     font-weight: 600;
     color: ${(props) => props.color} !important;
     letter-spacing: 1px;
-    margin-left: 5px;
-    // font-size: 18px;
+    margin-left: 25px;
+    font-size: 18px;
   }
   .bg-dark,
   .bg-light {
