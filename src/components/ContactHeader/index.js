@@ -143,14 +143,18 @@ export default function index() {
                       </div>
                       <div className="col-lg-5 text-start">
                         <div className="d-flex secure mb-3">
-                          <button className="btn  mx-2 mx-md-2  ">
+                          <button onClick={()=>{
+                              window.open('https://apps.apple.com/ng/app/krib-property-without-agents/id1610076555')
+                          }} className="btn  mx-2 mx-md-2  ">
                             <Image src={AppleStore} alt="" />
                           </button>
-                          <button className="btn   mx-2 mx-md-2 ">
+                          <button onClick={()=>{
+                              window.open('https://play.google.com/store/apps/details?id=com.krib.app')
+                          }} className="btn   mx-2 mx-md-2 ">
                             <Image src={GooglePlay} alt="" />
                           </button>
                         </div>
-                        <h2 className="text-center">LAUNCHING SOON</h2>
+                        {/* <h2 classNamse="text-center">LAUNCHING SOON</h2> */}
                       </div>
                     </div>
                   </Card.Body>

@@ -73,7 +73,7 @@ export default function Index({ Background }) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Link href="/buyer">
+              <Link href="/seller">
                 <a className="nav-link">Property owners</a>
               </Link>
 
@@ -83,7 +83,7 @@ export default function Index({ Background }) {
               <Link href="/faqs">
                 <a className="nav-link"> FAQs</a>
               </Link>
-              <Link href="/privacy-policy">
+              <Link href="/terms">
                 <a className="nav-link"> Terms Of Service</a>
               </Link>
             </Nav>

@@ -210,7 +210,7 @@ export default function Index({ padding }) {
                   </h5>
                   <ul className="list-unstyled">
                     <li className="mb-3">
-                      <Link href={"/#"}>
+                      <Link href={"/terms"}>
                         <a>Terms of Service</a>
                       </Link>
                     </li>
@@ -234,10 +234,14 @@ export default function Index({ padding }) {
         <div>
           <div className="row g-5">
             <div className="col-lg-5 d-flex mb-5">
-              <button className="btn m-0 p-0 me-4">
+              <button onClick={()=>{
+                  window.open('https://apps.apple.com/ng/app/krib-property-without-agents/id1610076555')
+              }} className="btn m-0 p-0 me-4">
                 <img alt="" src={"/apple.svg"} />
               </button>
-              <button className="btn m-0 p-0 ">
+              <button onClick={()=>{
+                  window.open('https://play.google.com/store/apps/details?id=com.krib.app')
+              }} className="btn m-0 p-0 ">
                 <img alt="" src={"/google.svg"} />
               </button>
             </div>

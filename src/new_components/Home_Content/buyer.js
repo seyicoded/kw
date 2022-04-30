@@ -2,8 +2,10 @@ import React from 'react';
 import styled from "styled-components";
 // import WhyChoseUsImage from "../../Assets/Images/animation1.gif"
 import WhyChoseUsImage from "../../Assets/New_Images/whychooseus.png"
-import Phone1 from "../../Assets/New_Images/Phone1.svg"
-import Phone2 from "../../Assets/New_Images/Phone2.svg"
+import Seller1 from "../../Assets/New_Images/Seller1.svg"
+import Seller2 from "../../Assets/New_Images/Seller2.svg"
+import Seller3 from "../../Assets/New_Images/Seller3.svg"
+import Seller4 from "../../Assets/New_Images/Seller4.svg"
 import Phone3 from "../../Assets/New_Images/Phone3.svg"
 import Photobackground from "../../Assets/New_Images/photobackground.svg"
 import Business_communication from "../../Assets/New_Images/Business_communication.svg"
@@ -93,7 +95,7 @@ export default function Home_content() {
   return (
     <MainContainer>
       
-      <TwoSide
+      {/* <TwoSide
         imageRight={true} 
         imageBig={false}
         Text={
@@ -106,36 +108,7 @@ export default function Home_content() {
         Imagee={
         <div className='' style={{flex: 1,}}>
           <img src={`${WhyChoseUsImage.src}`} alt="" style={{width: 474, height: 474}}/>
-        </div>}/>
-
-        <br />
-        <TwoSide
-        imageRight={false} 
-        imageBig={false}
-        Text={
-        <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
-          <div style={{fontSize: 30, fontWeight: '600'}}>Communicate directly with the landlord or property owner. Zero
-            percent agency fees.
-          </div>
-          <br />
-          <p style={{fontSize: 18, lineHeight: 3, fontWeight: '500'}}>
-          We connect you directly with property owners to save you from paying agency fees. Chat with the property owners, ask questions, negotiate property pricing, and schedule tours. 
-          </p>
-          <br />
-
-          <a href="#top" style={{
-            textTransform: 'uppercase',
-            textDecoration: 'none',
-            color: 'white',
-            background: 'rgba(0, 29, 56, 1)',
-            borderRadius: 15,
-            padding: 22
-          }}>Download App</a>
-        </div>}
-        Imagee={
-        <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
-          <ImagePhoneElement src={`${Phone1.src}`} alt="" />
-        </div>}/>
+        </div>}/> */}
 
         <br />
         <TwoSide
@@ -143,11 +116,12 @@ export default function Home_content() {
         imageBig={false}
         Text={
         <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
-          <div style={{fontSize: 30, fontWeight: '600'}}>Verified and Current Property Listings
+          <div style={{fontSize: 30, fontWeight: '600'}}>Simple Listing Process
           </div>
           <br />
           <p style={{fontSize: 18, lineHeight: 3, fontWeight: '500'}}>
-          Every property listed on Krib is thoroughly verified to ensure true claim of ownership. We update listings quickly and regularly so you can stay ahead of other buyers and find the perfect property on time.
+          As a property owner, you can list your property in 5 easy steps. Just fill out our super-simple form. Your property will go live after verification. 
+
           </p>
           <br />
 
@@ -162,7 +136,7 @@ export default function Home_content() {
         </div>}
         Imagee={
         <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
-          <ImagePhoneElementRight src={`${Phone2.src}`} alt="" />
+          <ImagePhoneElementRight src={`${Seller1.src}`} alt="" />
         </div>}/>
 
         <br />
@@ -170,7 +144,96 @@ export default function Home_content() {
         imageRight={false} 
         imageBig={false}
         Text={
+        <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
+          <div style={{fontSize: 30, fontWeight: '600'}}>Boost property value and entice purchasers with gorgeous home photos
+          </div>
+          <br />
+          <p style={{fontSize: 18, lineHeight: 3, fontWeight: '500'}}>
+          A picture is worth more than a thousand words. Krib offers the architectural capturing of your property’s interior and exterior for free. This boosts its market appeal and increase the chances of getting your property sold quickly.
+
+          </p>
+          <br />
+
+          <a href="#top" style={{
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            color: 'white',
+            background: 'rgba(0, 29, 56, 1)',
+            borderRadius: 15,
+            padding: 22
+          }}>Download App</a>
+        </div>}
+        Imagee={
         <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
+          <ImagePhoneElement src={`${Seller2.src}`} alt="" />
+        </div>}/>
+
+        {/* start */}
+
+        <br />
+        <TwoSide
+        imageRight={true} 
+        imageBig={false}
+        Text={
+        <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
+          <div style={{fontSize: 30, fontWeight: '600'}}>Access to Multiple Buyers and Faster Sales 
+          </div>
+          <br />
+          <p style={{fontSize: 18, lineHeight: 3, fontWeight: '500'}}>
+          Gain access to a myriad of buyers, renters for your property by showcasing it as many times as possible so you can sell and close contracts faster.
+          </p>
+          <br />
+
+          <a href="#top" style={{
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            color: 'white',
+            background: 'rgba(0, 29, 56, 1)',
+            borderRadius: 15,
+            padding: 22
+          }}>Download App</a>
+        </div>}
+        Imagee={
+        <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
+          <ImagePhoneElementRight src={`${Seller3.src}`} alt="" />
+        </div>}/>
+
+        <br />
+        <TwoSide
+        imageRight={false} 
+        imageBig={false}
+        Text={
+        <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
+          <div style={{fontSize: 30, fontWeight: '600'}}>Communicate directly with the tenant or buyer. No agents!
+          </div>
+          <br />
+          <p style={{fontSize: 18, lineHeight: 3, fontWeight: '500'}}>
+          If a buyer or renter likes your property, they will send you a message. Chat with them, profile and ask questions, and schedule tours. No agency fees? More money for you.
+          </p>
+          <br />
+
+          <a href="#top" style={{
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            color: 'white',
+            background: 'rgba(0, 29, 56, 1)',
+            borderRadius: 15,
+            padding: 22
+          }}>Download App</a>
+        </div>}
+        Imagee={
+        <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
+          <ImagePhoneElement src={`${Seller4.src}`} alt="" />
+        </div>}/>
+
+        {/* stop */}
+
+        <br />
+        <TwoSide
+        imageRight={true} 
+        imageBig={false}
+        Text={
+        <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
           <div style={{fontSize: 30, fontWeight: '600'}}>Secure and Instant Payment 
           </div>
           <br />
@@ -189,16 +252,16 @@ export default function Home_content() {
           }}>Download App</a>
         </div>}
         Imagee={
-        <div className='' style={{flex: 2, alignSelf: 'flex-start',}}>
-          <ImagePhoneElement src={`${Phone3.src}`} alt="" />
+        <div className='' style={{flex: 1, alignSelf: 'flex-start',}}>
+          <ImagePhoneElementRight src={`${Phone3.src}`} alt="" />
         </div>}/>
 
         <br />
         <TwoSide
-        imageRight={true} 
+        imageRight={false} 
         imageBig={false}
         Text={
-        <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
+        <div className='' style={{flex: 2, alignSelf: 'flex-start'}}>
           <div style={{fontSize: 30, fontWeight: '600'}}>Online Rent Agreement
           </div>
           <br />
@@ -217,13 +280,13 @@ export default function Home_content() {
           }}>Download App</a>
         </div>}
         Imagee={
-        <div className='' style={{flex: 2, alignSelf: 'flex-start',}}>
-          <ImagePhoneElementRight src={`${Business_communication.src}`} alt="" style={{width: 488, height: 488}} />
+        <div className='' style={{flex: 1, alignSelf: 'flex-start',}}>
+          <ImagePhoneElement src={`${Business_communication.src}`} alt="" style={{width: 488, height: 488}} />
         </div>}/>
 
         <br />
         <TwoSide
-        imageRight={false} 
+        imageRight={true} 
         imageBig={false}
         Text={
         <div className='' style={{flex: 1, alignSelf: 'flex-start'}}>
@@ -246,7 +309,7 @@ export default function Home_content() {
         </div>}
         Imagee={
         <div className='' style={{flex: 2, alignSelf: 'flex-start',}}>
-          <ImagePhoneElement src={`${I247.src}`} alt="" style={{width: 488, height: 488}}/>
+          <ImagePhoneElementRight src={`${I247.src}`} alt="" style={{width: 488, height: 488}}/>
         </div>}/>
 
     </MainContainer>

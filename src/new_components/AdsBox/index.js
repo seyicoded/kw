@@ -20,6 +20,7 @@ export default function Index() {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+        overflow: hidden;
 
         @media only screen and (max-width: 768px) {
             margin-left: 15px;
@@ -30,6 +31,12 @@ export default function Index() {
     `
 
     const Title = styled.h4`
+    `
+
+    const Imagee = styled.img`
+        @media only screen and (max-width: 768px) {
+            
+        }
     `
   return (
     <Container>
@@ -52,14 +59,16 @@ export default function Index() {
             color: 'white',
             background: 'rgba(0, 29, 56, 1)',
             borderRadius: 15,
-            padding: 22
-          }}>Download App</a>
+            padding: 22,
+            paddingRight: 33,
+            paddingLeft: 33,
+          }}>Get Krib</a>
           <br />
           <br />
           &nbsp;
         </div>
         <div style={{flex: 1}}>
-            <img src={`${iPhone112.src}`} style={{
+            <Imagee src={`${iPhone112.src}`} style={{
                 backgroundImage: `url(${Photobackground.src})`,
                 backgroundSize: 'cover'
             }}/>

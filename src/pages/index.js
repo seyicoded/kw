@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import Main from "./main";
+import Main from "./buyer";
 
 export default function Home() {
   return (

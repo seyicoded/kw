@@ -70,7 +70,7 @@ export default function Index({ Background }) {
         <Container fluid className="px-3 px-md-5">
           <Navbar.Brand as={Link} href="/">
             <div>
-              <Image src={path === "/seller" ? sellerLogo : Logo} alt="" />
+              <Image src={path === "/seller" ? Logo : Logo} alt="" />
               &nbsp;
               <span style={{fontSize: 30, color: 'white', fontWeight: '700'}}>Krib</span>
             </div>
@@ -81,7 +81,7 @@ export default function Index({ Background }) {
           <Navbar.Collapse id="basic-navbar-nav">
             
             <Nav className="ms-auto">
-              <Nav.Link href="/buyer">
+              <Nav.Link href="/seller">
                 <a className="nav-link">Property owners</a>
               </Nav.Link>
 

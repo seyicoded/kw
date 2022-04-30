@@ -1,24 +1,21 @@
-import NavBar from "../../components/Nav";
-import SellerHeader from "../../components/SellerHeader";
-import SellerFeatures from "../../components/SellerFeatures";
-import ThisIsWereKbri from "../../components/ThisIsWereKbri";
-import WhyUseKribe from "../../components/WhyUseKribe";
-import BeTheFirstToKnow from "../../components/BeTheFirstToKnow";
-import Form from "../../components/Form";
+import React from 'react';
+// import PropTypes from 'prop-types';
+import Header from '../../new_components/Header/buyer'
+import Home_content from '../../new_components/Home_Content/buyer'
 import Footer from "../../components/Footer";
-//
-import { whyuskibru } from "../../Data";
-export default function index() {
-  return (
-    <div style={{ backgroundColor: " #e5e5e5", overflow: "hidden" }}>
-      <NavBar />
-      <SellerHeader />
-      <SellerFeatures />
-      <ThisIsWereKbri />
-      <WhyUseKribe whyuskibru={whyuskibru} />
-      <BeTheFirstToKnow />
-      <Form btnText={"JOIN THE WAITLIST"} />
-      <Footer padding={"5rem 0 3rem 0"} />
-    </div>
-  );
+import AdsBox from '../../new_components/AdsBox'
+ 
+const Main = () => {
+    return (
+        <div style={{ backgroundColor: "#F1F1F1", overflow: "hidden" }}>
+            <Header />
+            <Home_content />
+            <AdsBox />
+            <Footer padding="10rem 0 3rem 0" />
+        </div>
+    );
 }
+ 
+// Main.propTypes = {};
+ 
+export default Main;

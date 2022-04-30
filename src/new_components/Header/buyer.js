@@ -51,20 +51,20 @@ const Header = () => {
                     <NavSection />
 
                     <CaptionTextStyled className='animate__animated animate__fadeInLeft'>
-                        Digital Platform That Helps
+                        Why Sell Or Rent Out
                     </CaptionTextStyled>
 
                     <CaptionTextStyled className='animate__animated animate__fadeInLeft'>
-                        You Sell, Rent And Buy 
+                        Your Property
                     </CaptionTextStyled>
 
                     <CaptionTextStyled className='animate__animated animate__fadeInLeft'>
-                        Properties Without
+                    With Us?
                     </CaptionTextStyled>
 
-                    <CaptionTextStyled className='animate__animated animate__fadeInLeft'>
+                    {/* <CaptionTextStyled className='animate__animated animate__fadeInLeft'>
                         The Use Of Agents
-                    </CaptionTextStyled>
+                    </CaptionTextStyled> */}
 
                     <ButtonStyled>
                         <button onClick={()=>{
